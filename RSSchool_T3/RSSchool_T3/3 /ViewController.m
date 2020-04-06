@@ -88,7 +88,7 @@
     CGRect forButtonProcess = CGRectMake(self.view.bounds.size.width / 2 - 40, 360, 80, 40);
     self.buttonProcess = [[UIButton alloc] initWithFrame:forButtonProcess];
     [self.buttonProcess setTitle:@"Process" forState:UIControlStateNormal];
-    [self.buttonProcess setTitleColor:UIColor.systemBlueColor forState:UIControlStateNormal];
+    [self.buttonProcess setTitleColor:UIColor.blueColor forState:UIControlStateNormal];
     [self.view addSubview:self.buttonProcess];
     [self.buttonProcess addTarget:self action:@selector(tappedButtonProcess) forControlEvents:UIControlEventTouchUpInside];
     
